@@ -16,6 +16,8 @@ Haga el fork del reposotiro deseado.
 
 git clone https://github.com/luarserna/calculadora_colab.git
 
+cd calculadora_colab
+
 3 Cree una rama con su nombre
 
 git checkout -b sebas
@@ -26,7 +28,7 @@ git checkout -b sebas
    
 git add .
 
-git commit "Agregar funciones"
+git commit -m "Agregar funciones"
 
 6. Subiendo la rama
    
