@@ -51,8 +51,8 @@ git push origin sebas
 
 1. **Configutar git:** 
 
-    git config --global user.name oscarmauriciogiraldo
-    git config --global user.email oscardan@utp.edu.co
+    git config --global user.name yourName
+    git config --global user.email youorEmail@utp.edu.co
 
     **Nota :** Esta accion se hace si no se ha configutado previamente con el nombre de usuario y correo electronico, esto es escencial para realizar commits y el acceso al repositorio remoto
 
