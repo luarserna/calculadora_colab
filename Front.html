@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página Web Flask</title>
+        <script>
+        function Actualizargraficos() {
+            const biomas = document.getElementById("biomasa").addEventListener("change")
+            const hidro = document.getElementById("hidro")
+        }
+            window.onload = () => {
+            document.getElementById("biomasa").addEventListener("change")
+            document.getElementById("hidro").addEventListener("change")
+            Actualizargraficos()
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Bienvenido a la página de Flask</h1>
+        <label><input type="checkbox" id="biomasa" checked> Biomasa</label>
+        <label><input type="checkbox" id="hidro" checked> Hidráulica</label>
+        <h3>Gráfico generado</h3>
+        <img id="grafico-img" src="" alt="Gráfico" 
+        style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 8px;">
+    </body>
+</html>
